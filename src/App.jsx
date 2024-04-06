@@ -44,7 +44,7 @@ function App() {
   return (
     <>
       <div>
-        <h1>Message </h1>
+        <h1>Messages </h1>
         <h5>{socketid}</h5>
 
         <form onSubmit={joinRoomhandler}>
